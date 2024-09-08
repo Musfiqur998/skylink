@@ -1,0 +1,1058 @@
+<!DOCTYPE html><html lang="en" data-bs-theme="light" data-pwa="true"><head>
+    <meta charset="utf-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+
+    <!-- SEO Meta Tags -->
+    <title>Skylink | GXW4200 IP Phone</title>
+    <meta name="description" content="Skylink Product - Grandstream GXW4200 ">
+    <meta name="author" content="Skylink">
+
+    <!-- Webmanifest + Favicon / App icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+    <!-- Preloaded local web font (Inter) -->
+    <link rel="preload" href="assets/fonts/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin="">
+
+    <!-- Font icons -->
+    <link rel="preload" href="assets/icons/cartzilla-icons.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="stylesheet" href="assets/icons/cartzilla-icons.min.css">
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/vendor/simplebar/simplebar.min.css">
+    <link rel="stylesheet" href="assets/vendor/choices.js/choices.min.css">
+    <link rel="stylesheet" href="assets/vendor/glightbox/glightbox.min.css">
+
+    <!-- Bootstrap + Theme styles -->
+    <link rel="preload" href="assets/css/theme.min.css" as="style">
+    <link rel="preload" href="assets/css/theme.rtl.min.css" as="style">
+    <link rel="stylesheet" href="assets/css/theme.min.css" id="theme-styles">
+
+    <!-- Customizer -->
+    <script src="assets/js/customizer.min.js"></script>
+  </head>
+
+
+  <!-- Body -->
+  <body>
+
+    <!-- Customizer offcanvas -->
+    <div class="offcanvas offcanvas-end" id="customizer" tabindex="-1">
+      <div class="offcanvas-header border-bottom">
+        <h4 class="h5 offcanvas-title">Customize theme</h4>
+        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        <!-- Customizer settings -->
+        <div class="customizer-collapse collapse show" id="customizerSettings">
+
+          <!-- Colors -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center mb-3">
+              <i class="ci-paint text-body-tertiary fs-5 me-2"></i>
+              <h5 class="fs-lg mb-0">Colors</h5>
+            </div>
+            <div class="row row-cols-2 g-3" id="theme-colors">
+              <div class="col">
+                <h6 class="fs-sm mb-2">Primary</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-primary" data-color-labels="[&quot;theme-primary&quot;, &quot;primary&quot;, &quot;primary-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#f55266">
+                  <label for="primary" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #f55266"></label>
+                  <input type="color" class="visually-hidden" id="primary" value="#f55266">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Success</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-success" data-color-labels="[&quot;theme-success&quot;, &quot;success&quot;, &quot;success-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#33b36b">
+                  <label for="success" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #33b36b"></label>
+                  <input type="color" class="visually-hidden" id="success" value="#33b36b">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Warning</h6>
+                <div class="color-swatch d-flex border rounded gap-3 p-2" id="theme-warning" data-color-labels="[&quot;theme-warning&quot;, &quot;warning&quot;, &quot;warning-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#fc9231">
+                  <label for="warning" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #fc9231"></label>
+                  <input type="color" class="visually-hidden" id="warning" value="#fc9231">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Danger</h6>
+                <div class="color-swatch d-flex border rounded gap-2 p-2" id="theme-danger" data-color-labels="[&quot;theme-danger&quot;, &quot;danger&quot;, &quot;danger-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#f03d3d">
+                  <label for="danger" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #f03d3d"></label>
+                  <input type="color" class="visually-hidden" id="danger" value="#f03d3d">
+                </div>
+              </div>
+              <div class="col">
+                <h6 class="fs-sm mb-2">Info</h6>
+                <div class="color-swatch d-flex border rounded gap-2 p-2" id="theme-info" data-color-labels="[&quot;theme-info&quot;, &quot;info&quot;, &quot;info-rgb&quot;]">
+                  <input type="text" class="form-control bg-transparent border-0 rounded-0 p-1" value="#2f6ed5">
+                  <label for="info" class="ratio ratio-1x1 flex-shrink-0 w-100 cursor-pointer rounded-circle" style="max-width: 38px; background-color: #2f6ed5"></label>
+                  <input type="color" class="visually-hidden" id="info" value="#2f6ed5">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direction -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center pb-1 mb-2">
+              <i class="ci-sort text-body-tertiary fs-lg me-2" style="transform: rotate(90deg)"></i>
+              <h5 class="fs-lg mb-0">Direction</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between border rounded p-3">
+              <div class="me-3">
+                <h6 class="mb-1">RTL</h6>
+                <p class="fs-sm mb-0">Change text direction</p>
+              </div>
+              <div class="form-check form-switch m-0">
+                <input type="checkbox" class="form-check-input" role="switch" id="rtl-switch">
+              </div>
+            </div>
+            <div class="alert alert-info p-2 mt-2 mb-0">
+              <div class="d-flex text-body-emphasis fs-xs py-1 pe-1">
+                <i class="ci-info text-info fs-lg mb-2 mb-sm-0" style="margin-top: .125rem"></i>
+                <div class="ps-2">To switch the text direction of your webpage from LTR to RTL, please consult the detailed instructions provided in the relevant section of our documentation.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Border width -->
+          <div class="pb-4 mb-2">
+            <div class="d-flex align-items-center pb-1 mb-2">
+              <i class="ci-menu text-body-tertiary fs-lg me-2"></i>
+              <h5 class="fs-lg mb-0">Border width, px</h5>
+            </div>
+            <div class="slider-input d-flex align-items-center gap-3 border rounded p-3" id="border-input">
+              <input type="range" class="form-range" min="0" max="10" step="1" value="1">
+              <input type="number" class="form-control" id="border-width" min="0" max="10" value="1" style="max-width: 5.5rem">
+            </div>
+          </div>
+
+          <!-- Rounding -->
+          <div class="d-flex align-items-center pb-1 mb-2">
+            <i class="ci-maximize text-body-tertiary fs-lg me-2"></i>
+            <h5 class="fs-lg mb-0">Rounding, rem</h5>
+          </div>
+          <div class="slider-input d-flex align-items-center gap-3 border rounded p-3">
+            <input type="range" class="form-range" min="0" max="5" step=".05" value="0.5">
+            <input type="number" class="form-control" id="border-radius" min="0" max="5" step=".05" value="0.5" style="max-width: 5.5rem">
+          </div>
+        </div>
+
+        <!-- Customizer code -->
+        <div class="customizer-collapse collapse" id="customizerCode">
+          <div class="nav mb-3">
+            <a class="nav-link animate-underline fs-base p-0" href=".customizer-collapse" data-bs-toggle="collapse" aria-expanded="true" aria-controls="customizerSettings customizerCode">
+              <i class="ci-chevron-left fs-lg ms-n1 me-1"></i>
+              <span class="animate-target">Back to settings</span>
+            </a>
+          </div>
+          <p class="fs-sm pb-1">To apply the provided styles to your webpage, enclose them within a <code>&lt;style&gt;</code> tag and insert this tag into the <code>&lt;head&gt;</code> section of your HTML document after the following link to the main stylesheet:<br><code>&lt;link href="assets/css/theme.min.css"&gt;</code></p>
+          <div class="position-relative bg-body-tertiary rounded overflow-hidden pt-3">
+            <div class="position-absolute top-0 start-0 w-100 p-3">
+              <button type="button" class="btn btn-sm btn-outline-dark w-100" data-copy-text-from="#generated-styles" data-done-label="Code copied">
+                <i class="ci-copy fs-sm me-1"></i>
+                Copy code
+              </button>
+            </div>
+            <pre class="text-wrap bg-transparent border-0 fs-xs text-body-emphasis p-4 pt-5" id="generated-styles"></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offcanvas footer (Action buttons) -->
+      <div class="offcanvas-header border-top gap-3 d-none" id="customizer-btns">
+        <button type="button" class="btn btn-lg btn-secondary w-100 fs-sm" id="customizer-reset">
+          <i class="ci-trash fs-lg me-2 ms-n1"></i>
+          Reset
+        </button>
+        <button class="btn btn-lg btn-primary hiding-collapse-toggle w-100 fs-sm collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".customizer-collapse" aria-expanded="false" aria-controls="customizerSettings customizerCode">
+          <i class="ci-code fs-lg me-2 ms-n1"></i>
+          Show code
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Shopping cart offcanvas -->
+    <div class="offcanvas offcanvas-end pb-sm-2 px-sm-2" id="shoppingCart" tabindex="-1" aria-labelledby="shoppingCartLabel" style="width: 500px">
+
+      <!-- Header -->
+      <div class="offcanvas-header flex-column align-items-start py-3 pt-lg-4">
+        <div class="d-flex align-items-center justify-content-between w-100 mb-3 mb-lg-4">
+          <h4 class="offcanvas-title" id="shoppingCartLabel">Shopping cart</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="alert alert-success text-dark-emphasis fs-sm border-0 rounded-4 mb-0" role="alert">
+          Congratulations 🎉 You have added more than <span class="fw-semibold">$50</span> to your cart. <span class="fw-semibold">Delivery is free</span> for you!
+        </div>
+      </div>
+
+      <!-- Items -->
+      <div class="offcanvas-body d-flex flex-column gap-4 pt-2">
+
+        <!-- Item -->
+        <div class="d-flex align-items-center">
+          <a class="position-relative flex-shrink-0" href="shop-product-grocery.html">
+            <span class="badge text-bg-danger position-absolute top-0 start-0 z-2 mt-0 ms-0">-$2.79</span>
+            <img src="assets/img/shop/grocery/thumbs/01.png" width="110" alt="Thumbnail">
+          </a>
+          <div class="w-100 ps-3">
+            <h5 class="fs-sm fw-medium lh-base mb-2">
+              <a class="hover-effect-underline" href="shop-product-grocery.html">Fresh orange Klementina, Spain</a>
+            </h5>
+            <div class="h6 pb-1 mb-2">$3.12</div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="count-input rounded-pill">
+                <button type="button" class="btn btn-icon btn-sm" data-decrement="" aria-label="Decrement quantity">
+                  <i class="ci-minus"></i>
+                </button>
+                <input type="number" class="form-control form-control-sm" value="3" readonly="">
+                <button type="button" class="btn btn-icon btn-sm" data-increment="" aria-label="Increment quantity">
+                  <i class="ci-plus"></i>
+                </button>
+              </div>
+              <button type="button" class="btn-close fs-sm" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove from cart"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="d-flex align-items-center">
+          <a class="flex-shrink-0" href="shop-product-grocery.html">
+            <img src="assets/img/shop/grocery/thumbs/02.png" width="110" alt="Thumbnail">
+          </a>
+          <div class="w-100 ps-3">
+            <h5 class="fs-sm fw-medium lh-base mb-2">
+              <a class="hover-effect-underline" href="shop-product-grocery.html">Pesto sauce Barilla with basil, Italy</a>
+            </h5>
+            <div class="h6 pb-1 mb-2">$3.95</div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="count-input rounded-pill">
+                <button type="button" class="btn btn-icon btn-sm" data-decrement="" aria-label="Decrement quantity">
+                  <i class="ci-minus"></i>
+                </button>
+                <input type="number" class="form-control form-control-sm" value="1" readonly="">
+                <button type="button" class="btn btn-icon btn-sm" data-increment="" aria-label="Increment quantity">
+                  <i class="ci-plus"></i>
+                </button>
+              </div>
+              <button type="button" class="btn-close fs-sm" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove from cart"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="d-flex align-items-center">
+          <a class="flex-shrink-0" href="shop-product-grocery.html">
+            <img src="assets/img/shop/grocery/thumbs/03.png" width="110" alt="Thumbnail">
+          </a>
+          <div class="w-100 ps-3">
+            <h5 class="fs-sm fw-medium lh-base mb-2">
+              <a class="hover-effect-underline" href="shop-product-grocery.html">Steak salmon fillet with rosmary</a>
+            </h5>
+            <div class="h6 pb-1 mb-2">$27.00</div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="count-input rounded-pill">
+                <button type="button" class="btn btn-icon btn-sm" data-decrement="" aria-label="Decrement quantity">
+                  <i class="ci-minus"></i>
+                </button>
+                <input type="number" class="form-control form-control-sm" value="2" readonly="">
+                <button type="button" class="btn btn-icon btn-sm" data-increment="" aria-label="Increment quantity">
+                  <i class="ci-plus"></i>
+                </button>
+              </div>
+              <button type="button" class="btn-close fs-sm" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove from cart"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item -->
+        <div class="d-flex align-items-center">
+          <a class="flex-shrink-0" href="shop-product-grocery.html">
+            <img src="assets/img/shop/grocery/thumbs/04.png" width="110" alt="Thumbnail">
+          </a>
+          <div class="w-100 ps-3">
+            <h5 class="fs-sm fw-medium lh-base mb-2">
+              <a class="hover-effect-underline" href="shop-product-grocery.html">Sprite soda lemon lime, can</a>
+            </h5>
+            <div class="h6 pb-1 mb-2">$0.80</div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="count-input rounded-pill">
+                <button type="button" class="btn btn-icon btn-sm" data-decrement="" aria-label="Decrement quantity">
+                  <i class="ci-minus"></i>
+                </button>
+                <input type="number" class="form-control form-control-sm" value="2" readonly="">
+                <button type="button" class="btn btn-icon btn-sm" data-increment="" aria-label="Increment quantity">
+                  <i class="ci-plus"></i>
+                </button>
+              </div>
+              <button type="button" class="btn-close fs-sm" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove from cart"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="offcanvas-header flex-column align-items-start">
+        <div class="d-flex align-items-center justify-content-between w-100 mb-3 mb-md-4">
+          <span class="text-light-emphasis">Subtotal:</span>
+          <span class="h6 mb-0">$68.91</span>
+        </div>
+        <div class="d-flex w-100 gap-3">
+          <a class="btn btn-lg btn-secondary w-100 rounded-pill" href="checkout-v2-cart.html">View cart</a>
+          <a class="btn btn-lg btn-primary w-100 rounded-pill" href="checkout-v2-delivery.html">Checkout</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Delivey options offcanvas -->
+    <div class="offcanvas offcanvas-end pb-sm-2 px-sm-2" id="deliveryOptions" tabindex="-1" aria-labelledby="deliveryOptionsLabel" style="width: 500px">
+
+      <!-- Header with nav tabs -->
+      <div class="offcanvas-header flex-column align-items-start py-3 pt-lg-4">
+        <div class="d-flex align-items-center justify-content-between w-100 pb-xl-1 mb-4">
+          <h4 class="offcanvas-title" id="deliveryOptionsLabel">Delivery options</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <ul class="nav nav-pills nav-justified w-100" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button type="button" class="nav-link active" id="delivery-tab" data-bs-toggle="tab" data-bs-target="#delivery-tab-pane" role="tab" aria-controls="delivery-tab-pane" aria-selected="true">
+              <i class="ci-shopping-bag fs-base ms-n1 me-2"></i>
+              Delivery
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button type="button" class="nav-link" id="pickup-tab" data-bs-toggle="tab" data-bs-target="#pickup-tab-pane" role="tab" aria-controls="pickup-tab-pane" aria-selected="false">
+              <i class="ci-box fs-base ms-n1 me-2"></i>
+              Pickup
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="offcanvas-body tab-content py-2 py-sm-3">
+
+        <!-- Delivery tab -->
+        <div class="tab-pane fade show active" id="delivery-tab-pane" role="tabpanel" aria-labelledby="delivery-tab">
+
+          <!-- Address options collapse -->
+          <div class="collapse delivery-address show" id="deliveryAddressOptions">
+            <div class="mt-n3">
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="address-1" name="delivery-address" checked="">
+                <label for="address-1" class="form-check-label text-dark-emphasis fw-semibold">567 Cherry Lane Apt B12 Sacramento, 95829</label>
+              </div>
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="address-2" name="delivery-address">
+                <div class="d-flex w-100">
+                  <label for="address-2" class="form-check-label text-dark-emphasis me-3">1901 Thornridge Cir. Shiloh, Hawaii, 81063</label>
+                  <button type="button" class="btn-close fs-sm ms-auto" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove"></button>
+                </div>
+              </div>
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="address-3" name="delivery-address">
+                <div class="d-flex w-100">
+                  <label for="address-3" class="form-check-label text-dark-emphasis me-3">3517 W. Gray St. Utica, Pennsylvania, 57867</label>
+                  <button type="button" class="btn-close fs-sm ms-auto" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add new address collapse -->
+          <div class="collapse delivery-address" id="deliveryAddressAdd">
+            <div class="nav mb-4">
+              <a class="nav-link animate-underline p-0" href=".delivery-address" data-bs-toggle="collapse" aria-expanded="true" aria-controls="deliveryAddressOptions deliveryAddressAdd">
+                <i class="ci-chevron-left fs-lg ms-n1 me-1"></i>
+                <span class="animate-target">Back to my addresses</span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3 mb-lg-4">
+              <h5 class="h6 mb-0 me-3">Add an address to start ordering</h5>
+              <a class="btn btn-sm btn-outline-primary rounded-pill" href="#!">
+                <i class="ci-map-pin fs-base ms-n1 me-1"></i>
+                Find on map
+              </a>
+            </div>
+            <div class="mb-3 mb-lg-4">
+              <label class="form-label">State *</label>
+              <select class="form-select form-select-lg rounded-pill" data-select="{
+                &quot;classNames&quot;: {
+                  &quot;containerInner&quot;: &quot;form-select form-select-lg rounded-pill&quot;
+                }
+              }" aria-label="Large pill select">
+                <option value="">Select state</option>
+                <option value="Arizona">Arizona</option>
+                <option value="California">California</option>
+                <option value="Montana">Montana</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="Texas">Texas</option>
+              </select>
+            </div>
+            <div class="mb-3 mb-lg-4">
+              <label for="my-postcode" class="form-label">Postcode *</label>
+              <input type="text" class="form-control form-control-lg rounded-pill" id="my-postcode">
+            </div>
+            <div class="mb-3 mb-lg-4">
+              <label class="form-label">City *</label>
+              <select class="form-select form-select-lg rounded-pill" data-select="{
+                &quot;classNames&quot;: {
+                  &quot;containerInner&quot;: &quot;form-select form-select-lg rounded-pill&quot;
+                }
+              }" aria-label="Large pill select">
+                <option value="">Select city</option>
+                <option value="Austin">Austin</option>
+                <option value="Helena">Helena</option>
+                <option value="Sacramento">Sacramento</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Las Vegas">Las Vegas</option>
+                <option value="Phoenix">Phoenix</option>
+              </select>
+            </div>
+            <label for="my-address" class="form-label">Street address *</label>
+            <input type="text" class="form-control form-control-lg rounded-pill" id="my-address">
+          </div>
+
+          <!-- Add address collapse toggle -->
+          <div class="nav">
+            <a class="nav-link hiding-collapse-toggle animate-underline collapsed px-0 mt-4" href=".delivery-address" data-bs-toggle="collapse" aria-expanded="false" aria-controls="deliveryAddressOptions deliveryAddressAdd">
+              <span class="animate-target">Add delivery address</span>
+              <i class="ci-plus fs-base ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pickup tab -->
+        <div class="tab-pane fade" id="pickup-tab-pane" role="tabpanel" aria-labelledby="pickup-tab">
+
+          <!-- Pickup store options collapse -->
+          <div class="collapse pickup-options show" id="pickupStoreOptions">
+            <div class="mt-n3">
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="store-1" name="pickup-store" checked="">
+                <div>
+                  <div class="d-flex w-100 pb-2 mb-1">
+                    <label for="store-1" class="form-check-label text-dark-emphasis fw-semibold me-3">Sacramento Supercenter</label>
+                    <button type="button" class="btn-close fs-sm ms-auto" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove"></button>
+                  </div>
+                  <div class="fs-xs mb-2">8270 Delta Shores Cir S, Sacramento, CA 95832</div>
+                  <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">07:00 - 22:00</span></div>
+                </div>
+              </div>
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="store-2" name="pickup-store">
+                <div>
+                  <div class="d-flex w-100 pb-2 mb-1">
+                    <label for="store-2" class="form-check-label text-dark-emphasis fw-semibold me-3">West Sacramento Supercenter</label>
+                    <button type="button" class="btn-close fs-sm ms-auto" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove"></button>
+                  </div>
+                  <div class="fs-xs mb-2">755 Riverpoint Ct, West Sacramento, CA 95605</div>
+                  <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">07:00 - 21:00</span></div>
+                </div>
+              </div>
+              <div class="form-check border-bottom py-4 m-0">
+                <input type="radio" class="form-check-input" id="store-3" name="pickup-store">
+                <div>
+                  <div class="d-flex w-100 pb-2 mb-1">
+                    <label for="store-3" class="form-check-label text-dark-emphasis fw-semibold me-3">Rancho Cordova Supercenter</label>
+                    <button type="button" class="btn-close fs-sm ms-auto" data-bs-toggle="tooltip" data-bs-custom-class="tooltip-sm" data-bs-title="Remove" aria-label="Remove"></button>
+                  </div>
+                  <div class="fs-xs mb-2">10655 Folsom Blvd, Rancho Cordova, CA 95670</div>
+                  <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">08:00 - 23:00</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add new pickup store collapse -->
+          <div class="collapse pickup-options" id="pickupStoreAdd">
+            <div class="nav mb-4">
+              <a class="nav-link animate-underline p-0" href=".pickup-options" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pickupStoreOptions pickupStoreAdd">
+                <i class="ci-chevron-left fs-lg ms-n1 me-1"></i>
+                <span class="animate-target">Back to my stores</span>
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mb-3 mb-lg-4">
+              <h5 class="h6 mb-0 me-3">Select a suitable store</h5>
+              <a class="btn btn-sm btn-outline-primary rounded-pill" href="#!">
+                <i class="ci-map-pin fs-base ms-n1 me-1"></i>
+                Find on map
+              </a>
+            </div>
+            <div class="mb-3 mb-lg-4">
+              <label class="form-label">State *</label>
+              <select class="form-select form-select-lg rounded-pill" data-select="{
+                &quot;classNames&quot;: {
+                  &quot;containerInner&quot;: &quot;form-select form-select-lg rounded-pill&quot;
+                }
+              }" aria-label="Large pill select">
+                <option value="">Select state</option>
+                <option value="Arizona">Arizona</option>
+                <option value="California" selected="">California</option>
+                <option value="Montana">Montana</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="Texas">Texas</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label class="form-label">City *</label>
+              <select class="form-select form-select-lg rounded-pill" data-select="{
+                &quot;classNames&quot;: {
+                  &quot;containerInner&quot;: &quot;form-select form-select-lg rounded-pill&quot;
+                }
+              }" aria-label="Large pill select">
+                <option value="">Select city</option>
+                <option value="Austin">Austin</option>
+                <option value="Helena">Helena</option>
+                <option value="Sacramento" selected="">Sacramento</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Las Vegas">Las Vegas</option>
+                <option value="Phoenix">Phoenix</option>
+              </select>
+            </div>
+            <div class="fs-xs fw-medium text-uppercase text-body-secondary">Found stores:</div>
+            <div class="form-check border-bottom py-4 m-0">
+              <input type="radio" class="form-check-input" id="store-4" name="found-store">
+              <div>
+                <label for="store-4" class="form-check-label text-dark-emphasis fw-semibold pb-2 mb-1">Sacramento Supercenter</label>
+                <div class="fs-xs mb-2">8270 Delta Shores Cir S, Sacramento, CA 95832</div>
+                <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">07:00 - 22:00</span></div>
+              </div>
+            </div>
+            <div class="form-check border-bottom py-4 m-0">
+              <input type="radio" class="form-check-input" id="store-5" name="found-store">
+              <div>
+                <label for="store-5" class="form-check-label text-dark-emphasis fw-semibold pb-2 mb-1">West Sacramento Supercenter</label>
+                <div class="fs-xs mb-2">755 Riverpoint Ct, West Sacramento, CA 95605</div>
+                <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">07:00 - 21:00</span></div>
+              </div>
+            </div>
+            <div class="form-check border-bottom py-4 m-0">
+              <input type="radio" class="form-check-input" id="store-6" name="found-store">
+              <div>
+                <label for="store-6" class="form-check-label text-dark-emphasis fw-semibold pb-2 mb-1">Rancho Cordova Supercenter</label>
+                <div class="fs-xs mb-2">10655 Folsom Blvd, Rancho Cordova, CA 95670</div>
+                <div class="fs-xs">Open: <span class="text-dark-emphasis fw-medium">08:00 - 23:00</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add address collapse toggle -->
+          <div class="nav">
+            <a class="nav-link hiding-collapse-toggle animate-underline collapsed px-0 mt-4" href=".pickup-options" data-bs-toggle="collapse" aria-expanded="false" aria-controls="pickupStoreOptions pickupStoreAdd">
+              <span class="animate-target">Add store address</span>
+              <i class="ci-plus fs-base ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="offcanvas-header">
+        <button type="button" class="btn btn-lg btn-primary w-100 rounded-pill">Confirm address</button>
+      </div>
+    </div>
+
+
+    <!-- Site menu offcanvas -->
+    <nav class="offcanvas offcanvas-start" id="navbarNav" tabindex="-1" aria-labelledby="navbarNavLabel">
+      <div class="offcanvas-header py-3">
+        <h5 class="offcanvas-title" id="navbarNavLabel">Browse Pochify</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body pt-0 pb-3">
+
+        <!-- Navbar nav -->
+        <div class="accordion" id="navigation">
+
+          <!-- Rest of the menu -->
+          <div class="accordion-item border-0">
+            <div class="accordion-header" id="headingHome">
+              <button type="button" class="accordion-button animate-underline fw-medium collapsed py-2" data-bs-toggle="collapse" data-bs-target="#home" aria-expanded="false" aria-controls="home">
+                <span class="d-block animate-target py-1">Home</span>
+              </button>
+            </div>
+          </div>
+          <div class="accordion-item border-0">
+            <div class="accordion-header" id="headingShop">
+              <button type="button" class="accordion-button animate-underline fw-medium collapsed py-2" data-bs-toggle="collapse" data-bs-target="#shop" aria-expanded="false" aria-controls="shop">
+                <span class="d-block animate-target py-1">Shop</span>
+              </button>
+            </div>
+          </div>
+          <div class="accordion-item border-0">
+            <div class="accordion-header" id="headingAccount">
+              <button type="button" class="accordion-button animate-underline fw-medium collapsed py-2" data-bs-toggle="collapse" data-bs-target="#account" aria-expanded="false" aria-controls="account">
+                <span class="d-block animate-target py-1">Account</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Account button visible on screens < 768px wide (md breakpoint) -->
+      <div class="offcanvas-header flex-column align-items-start d-md-none">
+        <a class="btn btn-lg btn-outline-secondary w-100 rounded-pill" href="account-signin.html">
+          <i class="ci-user fs-lg ms-n1 me-2"></i>
+          Account
+        </a>
+      </div>
+    </nav>
+
+
+    <!-- Navigation bar (Page header) -->
+    <header class="navbar navbar-expand navbar-sticky sticky-top d-block bg-body z-fixed py-1 py-lg-0 py-xl-1 px-0" data-sticky-element="">
+      <div class="container justify-content-start py-2 py-lg-3">
+
+        <!-- Offcanvas menu toggler (Hamburger) -->
+        <button type="button" class="navbar-toggler d-block flex-shrink-0 me-3 me-sm-4" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar brand (Logo) -->
+        <a class="navbar-brand fs-2 p-0 pe-lg-2 pe-xxl-0 me-0 me-sm-3 me-md-4 me-xxl-5" href="index.html">Pochify</a>
+
+        <!-- Search bar visible on screens > 768px wide (md breakpoint) -->
+        <div class="position-relative w-100 d-none d-md-block me-3 me-xl-4">
+          <input type="search" class="form-control form-control-lg rounded-pill" placeholder="Search for products" aria-label="Search">
+        </div>
+
+
+      <!-- Search collapse available on screens < 768px wide (md breakpoint) -->
+      <div class="collapse d-md-none" id="searchBar">
+        <div class="container pt-2 pb-3">
+          <div class="position-relative">
+            <i class="ci-search position-absolute top-50 translate-middle-y d-flex fs-lg ms-3"></i>
+            <input type="search" class="form-control form-icon-start rounded-pill" placeholder="Search for products" data-autofocus="collapse">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <main class="content-wrapper">
+
+      <!-- Breadcrumb -->
+      <nav class="container position-relative z-2 pt-lg-2 mt-3 mt-lg-4" aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="shop-catalog-grocery.html">Shop</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Product page</li>
+        </ol>
+      </nav>
+
+      <!-- Product gallery + Product details -->
+      <section class="container pt-md-4 pb-5 mt-md-2 mt-lg-3 mb-2 mb-sm-3 mb-lg-4 mb-xl-5">
+        <div class="row align-items-start">
+
+          <!-- Product gallery -->
+          <div class="col-md-6 col-lg-7 sticky-md-top z-1 mb-4 mb-md-0" style="margin-top: -120px">
+            <div class="d-flex" style="padding-top: 120px">
+
+              <!-- Thumbnails -->
+              <div class="swiper swiper-load swiper-thumbs d-none d-lg-block w-100 me-xl-3" id="thumbs" data-swiper="{
+                &quot;direction&quot;: &quot;vertical&quot;,
+                &quot;spaceBetween&quot;: 12,
+                &quot;slidesPerView&quot;: 4,
+                &quot;watchSlidesProgress&quot;: true
+              }" style="max-width: 96px; height: 420px;">
+                <div class="swiper-wrapper flex-column">
+                  <div class="swiper-slide swiper-thumb">
+                    <div class="ratio ratio-1x1" style="max-width: 94px">
+                      <img src="assets/img/shop/grocery/product/01.jpg" class="swiper-thumb-img" alt="Thumbnail">
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-thumb">
+                    <div class="ratio ratio-1x1" style="max-width: 94px">
+                      <img src="assets/img/shop/grocery/product/02.jpg" class="swiper-thumb-img" alt="Thumbnail">
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-thumb">
+                    <div class="ratio ratio-1x1" style="max-width: 94px">
+                      <img src="assets/img/shop/grocery/product/03.jpg" class="swiper-thumb-img" alt="Thumbnail">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Preview (Large image) -->
+              <div class="swiper w-100" data-swiper="{
+                &quot;loop&quot;: false,
+                &quot;thumbs&quot;: {
+                  &quot;swiper&quot;: &quot;#thumbs&quot;
+                },
+                &quot;pagination&quot;: {
+                  &quot;el&quot;: &quot;.swiper-pagination&quot;,
+                  &quot;clickable&quot;: true
+                }
+              }">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a class="ratio ratio-1x1 d-block cursor-zoom-in" href="assets/img/shop/grocery/product/01.jpg" data-glightbox="" data-gallery="product-gallery">
+                      <img src="assets/img/shop/grocery/product/01.jpg" alt="Preview">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a class="ratio ratio-1x1 d-block cursor-zoom-in" href="assets/img/shop/grocery/product/02.jpg" data-glightbox="" data-gallery="product-gallery">
+                      <img src="assets/img/shop/grocery/product/02.jpg" alt="Preview">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a class="ratio ratio-1x1 d-block cursor-zoom-in" href="assets/img/shop/grocery/product/03.jpg" data-glightbox="" data-gallery="product-gallery">
+                      <img src="assets/img/shop/grocery/product/03.jpg" alt="Preview">
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Slider pagination (Bullets) visible on screens > 991px wide (lg breakpoint) -->
+                <div class="swiper-pagination mb-n3 d-lg-none"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Product details -->
+          <div class="col-md-6 col-lg-5 position-relative">
+            <div class="ps-xxl-3">
+              <p class="fs-sm text-body-secondary">Shop / Product</p>
+              <h1 class="h5 mb-2">Grandstream GXW4200 Series High-Density, Gigabit Gateways</h1>
+              <div class="fs-sm fw-medium">1 Pcs.</div>
+              <div class="border rounded-pill px-4 py-2 my-4">
+                <div class="text-dark-emphasis fs-sm py-1">
+                  We will deliver your goods as soon as possible
+                  <a class="text-dark-emphasis fw-medium ms-1" href="#!">Check availability</a>
+                </div>
+              </div>
+              <div class="h3">$763</div>
+              <div class="d-flex gap-3 mb-4">
+                <div class="count-input flex-shrink-0 rounded-pill">
+                  <button type="button" class="btn btn-icon btn-lg" data-decrement="" aria-label="Decrement quantity" disabled="">
+                    <i class="ci-minus"></i>
+                  </button>
+                  <input type="number" class="form-control form-control-lg" value="1" min="1" readonly="">
+                  <button type="button" class="btn btn-icon btn-lg" data-increment="" aria-label="Increment quantity">
+                    <i class="ci-plus"></i>
+                  </button>
+                </div>
+                <button type="button" class="btn btn-lg btn-primary rounded-pill w-100">Add to cart</button>
+              </div>
+              <p class="fs-sm mb-4">GXW4200 Series &minus; High-Density, Gigabit Gateways. The GXW4200 v2 series features high-density FXS gateways that empower businesses of all sizes to establish a cost-effective hybrid IP and analog telephone system. This series leverages the advantages of VoIP communications while providing Gigabit speeds, ensuring efficient and reliable connectivity. Ideal for creating scalable communication solutions, the GXW4200 series enhances operational flexibility and performance. As the authorized distributor in Bangladesh, Skylink International offers the GXW4200 series, ensuring you receive genuine products and excellent support. Upgrade to the GXW4200 series to experience the seamless integration of IP and analog systems with high-speed capabilities.</p>
+              <div class="d-flex flex-wrap gap-3 gap-xxl-4 fs-sm text-dark-emphasis mb-2">
+                <div class="d-flex align-items-center me-3">
+                  <i class="ci-gluten-free fs-xl text-body-emphasis me-2"></i>
+                  16/24/32 FXS ports
+                </div>
+                <div class="d-flex align-items-center me-3">
+                  <i class="ci-broccoli fs-xl text-body-emphasis me-2"></i>
+                  1 Gigabit
+                </div>
+                <div class="d-flex align-items-center me-3">
+                  <i class="ci-leaf fs-xl text-body-emphasis me-2"></i>
+                  132x48 backlit
+                </div>
+                <div class="d-flex align-items-center">
+                  <i class="ci-avocado fs-xl text-body-emphasis me-2"></i>
+                  4 SIP server
+                </div>
+              </div>
+
+              <!-- Related products -->
+              <h2 class="h5 pt-5">Related products</h2>
+              <div class="d-flex border rounded-5 px-2 mb-4">
+                <div class="w-50">
+                  <div class="card product-card h-100 bg-transparent border-0 shadow-none">
+                    <div class="position-relative z-2">
+                      
+                      <a class="d-block p-2 p-lg-3" href="#!">
+                        <div class="ratio" style="--cz-aspect-ratio: calc(160 / 191 * 100%)">
+                          <img src="assets/img/shop/grocery/12.jpg" alt="Image">
+                        </div>
+                      </a>
+                      <div class="position-absolute w-100 start-0 bottom-0">
+                        <div class="d-flex justify-content-end px-2 px-lg-3 pb-2 pb-lg-3">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body pt-0 px-1 px-md-2 px-lg-3 pb-2">
+                      <div class="h6 mb-2">$2.59</div>
+                      <h3 class="fs-sm lh-base mb-0">
+                        <a class="hover-effect-underline fw-normal" href="#!">Soft creme cheese with greens Exquisa</a>
+                      </h3>
+                    </div>
+                    <div class="fs-xs text-body-secondary px-1 px-md-2 px-lg-3 pb-2 pb-md-3">150g</div>
+                  </div>
+                  </div>
+                <hr class="vr my-0 mx-2">
+                <div class="w-50">
+                  <div class="card product-card h-100 bg-transparent border-0 shadow-none">
+                    <div class="position-relative z-2">
+                      
+                      <a class="d-block p-2 p-lg-3" href="#!">
+                        <div class="ratio" style="--cz-aspect-ratio: calc(160 / 191 * 100%)">
+                          <img src="assets/img/shop/grocery/11.jpg" alt="Image">
+                        </div>
+                      </a>
+                      <div class="position-absolute w-100 start-0 bottom-0">
+                        <div class="d-flex justify-content-end px-2 px-lg-3 pb-2 pb-lg-3">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body pt-0 px-1 px-md-2 px-lg-3 pb-2">
+                      <div class="h6 mb-2">$3.40</div>
+                      <h3 class="fs-sm lh-base mb-0">
+                        <a class="hover-effect-underline fw-normal" href="#!">Fresh red grapefruit</a>
+                      </h3>
+                    </div>
+                    <div class="fs-xs text-body-secondary px-1 px-md-2 px-lg-3 pb-2 pb-md-3">1kg</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Product info accordion -->
+              <div class="accordion accordion-alt-icon py-2 mb-4" id="productAccordion">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingProductInfo">
+                    <button type="button" class="accordion-button animate-underline collapsed" data-bs-toggle="collapse" data-bs-target="#productInfo" aria-expanded="false" aria-controls="productInfo">
+                      <span class="animate-target me-2">About this product</span>
+                    </button>
+                  </h3>
+                  <div class="accordion-collapse collapse" id="productInfo" aria-labelledby="headingProductInfo" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">GXW4200 Series &minus; High-Density, Gigabit Gateways. The GXW4200 v2 series features high-density FXS gateways that empower businesses of all sizes to establish a cost-effective hybrid IP and analog telephone system. This series leverages the advantages of VoIP communications while providing Gigabit speeds, ensuring efficient and reliable connectivity. Ideal for creating scalable communication solutions, the GXW4200 series enhances operational flexibility and performance. As the authorized distributor in Bangladesh, Skylink International offers the GXW4200 series, ensuring you receive genuine products and excellent support. Upgrade to the GXW4200 series to experience the seamless integration of IP and analog systems with high-speed capabilities.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingProductDelivery">
+                    <button type="button" class="accordion-button animate-underline collapsed" data-bs-toggle="collapse" data-bs-target="#productDelivery" aria-expanded="false" aria-controls="productDelivery">
+                      <span class="animate-target me-2">Delivery info</span>
+                    </button>
+                  </h3>
+                  <div class="accordion-collapse collapse" id="productDelivery" aria-labelledby="headingProductDelivery" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                      <ul class="m-0">
+                        <li>Enjoy free delivery for orders <span class="text-body-emphasis fw-medium">over $50!</span></li>
+                        <li>For orders <span class="text-body-emphasis fw-medium">below $50</span>, a standard delivery fee of <span class="text-body-emphasis fw-medium">$5</span> applies.</li>
+                        <li>We strive to deliver your order in a timely manner to ensure your satisfaction.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center position-relative text-dark-emphasis">
+                <i class="ci-edit fs-lg me-2"></i>
+                <a class="stretched-link fs-sm text-dark-emphasis" href="#!">Report incorrect product information</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+
+
+    <!-- Page footer -->
+    <footer class="footer bg-dark pb-4" data-bs-theme="dark">
+
+      <!-- Subscription -->
+      <div class="border-bottom py-5">
+        <div class="container py-sm-1 py-md-2 py-lg-3">
+          <div class="text-center mx-auto" style="max-width: 580px">
+            <h3 class="pb-1 mb-2">Stay in touch with us</h3>
+            <p class="fs-sm text-body">Receive the latest updates about our products &amp; promotions</p>
+            <form class="needs-validation position-relative d-flex flex-column flex-sm-row gap-2 pt-3" novalidate="">
+              <input type="email" class="form-control form-control-lg rounded-pill text-start" placeholder="You email" aria-label="Your email address" required="">
+              <div class="invalid-tooltip bg-transparent p-0">Please enter you email address!</div>
+              <button type="submit" class="btn btn-lg btn-primary rounded-pill">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4 py-md-5">
+        <div class="row pt-3 pb-4 py-md-1 py-lg-3">
+
+          <!-- Promo text + Social account links -->
+          <div class="col-lg-3 text-center text-lg-start pb-sm-2 pb-md-0 mb-4 mb-md-5 mb-lg-0">
+            <h4 class="pb-2 mb-1">
+              <a class="text-dark-emphasis text-decoration-none" href="index.html">Pochify</a>
+            </h4>
+            <p class="fs-sm text-body mx-auto" style="max-width: 480px">SkyLink BD is the leading ISP products importer & supplier in Bangladesh. We provide FTTx, IP Telephony, IT Solution, Broad Band, Wireless, Network equipment, Telecom, CCTV Solution, Switch, OLT, ONU.</p>
+          </div>
+
+          <!-- Columns with links that are turned into accordion on screens < 500px wide (sm breakpoint) -->
+          <div class="col-lg-8 offset-lg-1">
+            <div class="accordion" id="footerLinks">
+              <div class="row">
+                <div class="accordion-item col-sm-3 border-0">
+                  <h6 class="accordion-header" id="categoriesHeading">
+                    <span class="text-dark-emphasis d-none d-sm-block">Categories</span>
+                    <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#categoriesLinks" aria-expanded="false" aria-controls="categoriesLinks">Categories</button>
+                  </h6>
+                  <div class="accordion-collapse collapse d-sm-block" id="categoriesLinks" aria-labelledby="categoriesHeading" data-bs-parent="#footerLinks">
+                    <ul class="nav flex-column gap-2 pt-sm-3 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Weekly sale</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Special price</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">New Year is coming</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">IP Telephones</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Network Equipements</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">IP Surveillance</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr class="d-sm-none my-0">
+                </div>
+                <div class="accordion-item col-sm-3 border-0">
+                  <h6 class="accordion-header" id="companyHeading">
+                    <span class="text-dark-emphasis d-none d-sm-block">Company</span>
+                    <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#companyLinks" aria-expanded="false" aria-controls="companyLinks">Company</button>
+                  </h6>
+                  <div class="accordion-collapse collapse d-sm-block" id="companyLinks" aria-labelledby="companyHeading" data-bs-parent="#footerLinks">
+                    <ul class="nav flex-column gap-2 pt-sm-3 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Blog and news</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">About us</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">FAQ page</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Contact us</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr class="d-sm-none my-0">
+                </div>
+                <div class="accordion-item col-sm-3 border-0">
+                  <h6 class="accordion-header" id="accountHeading">
+                    <span class="text-dark-emphasis d-none d-sm-block">Account</span>
+                    <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#accountLinks" aria-expanded="false" aria-controls="accountLinks">Account</button>
+                  </h6>
+                  <div class="accordion-collapse collapse d-sm-block" id="accountLinks" aria-labelledby="accountHeading" data-bs-parent="#footerLinks">
+                    <ul class="nav flex-column gap-2 pt-sm-3 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Your account</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Shipping &amp; policies</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Refunds &amp; replacements</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Order tracking</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Delivery info</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Taxes &amp; fees</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr class="d-sm-none my-0">
+                </div>
+                <div class="accordion-item col-sm-3 border-0">
+                  <h6 class="accordion-header" id="customerHeading">
+                    <span class="text-dark-emphasis d-none d-sm-block">Customer service</span>
+                    <button type="button" class="accordion-button collapsed py-3 d-sm-none" data-bs-toggle="collapse" data-bs-target="#customerLinks" aria-expanded="false" aria-controls="customerLinks">Customer service</button>
+                  </h6>
+                  <div class="accordion-collapse collapse d-sm-block" id="customerLinks" aria-labelledby="customerHeading" data-bs-parent="#footerLinks">
+                    <ul class="nav flex-column gap-2 pt-sm-3 pb-3 pb-sm-0 mt-n1 mb-1 mb-sm-0">
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Payment methods</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Money back guarantee</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Refunds &amp; replacements</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Order tracking</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Delivery info</a>
+                      </li>
+                      <li class="d-flex w-100 pt-1">
+                        <a class="nav-link animate-underline animate-target d-inline fw-normal text-truncate p-0" href="#!">Shipping</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr class="d-sm-none my-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <p class="container fs-xs text-body text-center text-lg-start pb-md-3 mb-0">
+        © All rights reserved. Made by <span class="animate-underline"><a class="animate-target text-white text-decoration-none" href="#" target="_blank" rel="noreferrer">Musfiqur Rahman</a></span>
+      </p>
+    </footer>
+
+
+    <!-- Back to top button -->
+    <div class="floating-buttons position-fixed top-50 end-0 z-sticky me-3 me-xl-4 pb-4">
+      <a class="btn-scroll-top btn btn-sm bg-body border-0 rounded-pill shadow animate-slide-end" href="#top">
+        Top
+        <i class="ci-arrow-right fs-base ms-1 me-n1 animate-target"></i>
+        <span class="position-absolute top-0 start-0 w-100 h-100 border rounded-pill z-0"></span>
+        <svg class="position-absolute top-0 start-0 w-100 h-100 z-1" viewBox="0 0 62 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x=".75" y=".75" width="60.5" height="30.5" rx="15.25" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></rect>
+        </svg>
+      </a>
+      <a class="btn btn-sm btn-outline-secondary text-uppercase bg-body rounded-pill shadow animate-rotate ms-2 me-n5" href="#customizer" style="font-size: .625rem; letter-spacing: .05rem;" data-bs-toggle="offcanvas" role="button" aria-controls="customizer">
+        Customize<i class="ci-settings fs-base ms-1 me-n2 animate-target"></i>
+      </a>
+    </div>
+
+
+    <!-- Vendor scripts -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/simplebar/simplebar.min.js"></script>
+    <script src="assets/vendor/choices.js/choices.min.js"></script>
+    <script src="assets/vendor/glightbox/glightbox.min.js"></script>
+
+    <!-- Bootstrap + Theme scripts -->
+    <script src="assets/js/theme.min.js"></script>
+  
+
+</body></html>
